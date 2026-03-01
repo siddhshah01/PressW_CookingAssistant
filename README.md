@@ -170,7 +170,7 @@ The application uses a state-based graph workflow:
 
 ## Security & Auth
 
-**Current state**: No auth (it's just an assessment), CORS only allows localhost:3000.
+**Current state**: No auth for assessment, CORS only allows localhost:3000.
 
 **If this were production**:
 - Add Cognito for user auth (JWT tokens)
@@ -182,7 +182,7 @@ The application uses a state-based graph workflow:
 
 ## Edge Cases & Limitations
 
-**Stuff I didn't get to**:
+**What I didn't get to**:
 - No conversation memory (each query is independent)
 - Can't suggest cookware substitutions (just says it's missing)
 - No unit conversions
@@ -215,7 +215,7 @@ The application uses a state-based graph workflow:
 
 ## Things I Want to Build Next
 
-I built a RAG system from scratch before (Whisper transcription → embedding clustering → retrieval → LLM verification). Want to apply that same ground-up approach here to understand what LangChain/LangGraph are actually abstracting.
+I have built a RAG system from scratch before (Whisper transcription → embedding clustering → retrieval → LLM verification). Want to apply that same ground-up approach here to understand what LangChain/LangGraph are actually abstracting.
 
 **1. Custom memory layer** (no LangChain memory)
 - Implement sliding window manually
