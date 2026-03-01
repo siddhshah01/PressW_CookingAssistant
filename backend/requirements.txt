@@ -3,6 +3,8 @@ uvicorn
 langchain
 langgraph
 langchain-community
+langchain-huggingface
 huggingface_hub
 python-dotenv
 pydantic
+duckduckgo-search
