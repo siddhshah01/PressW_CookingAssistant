@@ -2,6 +2,20 @@
 
 LLM-powered cooking assistant that classifies queries, searches the web when needed, generates recipes, and checks if you have the right cookware.
 
+## Project Structure
+
+- **backend/** – FastAPI + LangGraph backend  
+  - `main.py` – API endpoints  
+  - `graph.py` – LangGraph workflow  
+  - `llm.py` – LLM setup  
+  - `tools.py` – Web search tool  
+  - `requirements.txt` – Python dependencies  
+
+- **frontend/** – Next.js + TypeScript frontend  
+  - `app/` – Next.js pages  
+  - `package.json` – Node dependencies  
+
+- `README.md` – This documentation
 
 ## What it does
 
