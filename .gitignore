@@ -1,9 +1,13 @@
-# Virtual environments
-.venv/
-
-# Environment variables
-.env
-
-# Python cache
+# Python
 __pycache__/
 *.pyc
+.env
+.venv/
+venv/
+
+# Node / Next.js
+node_modules/
+.next/
+
+# OS / Misc
+.DS_Store
